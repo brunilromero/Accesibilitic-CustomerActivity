@@ -1,4 +1,4 @@
-ACCESSIBILITIC/Customer Activities is a network of ontologies that supports inference process and provides answers to the following Competency Questions (CQs): 
+ACCESSIBILITIC-CustomerActivity is a network of ontologies that supports inference process and provides answers to the following Competency Questions (CQs): 
 
 CQ1: What customer actions are related to specific customer activity? 
 CQ2: What customer operations belong to a specific customer action? 
@@ -8,3 +8,5 @@ CQ4: What operations can be performed by customers in terms of their activities 
 This work was conducted using Protégé 5.0.0 and Hermit 1.8.3.413 
 
 Authors: Brunil D. Romero, María J. Rodríguez , María V. Hurtado, Hisham Haddad (2019)
+
+
