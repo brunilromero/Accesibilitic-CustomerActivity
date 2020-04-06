@@ -1,0 +1,863 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/brunil/ontologies/2017/1/CustomerActivityOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/brunil/ontologies/2017/1/CustomerActivityOntology"
+     versionIRI="http://www.semanticweb.org/brunil/ontologies/2017/1/CustomerActivityOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/brunil/ontologies/2017/1/CustomerActivitiesOntology_v3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Purchase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Learning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Observing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Specification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Store_Locator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evaluating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullfilmentCustomerOperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Troubleshooting-Support"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction_History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advertising"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedToAction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Training"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WebSite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maintaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerActivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fullfilment&amp;Delivery"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Implementation&amp;Use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Testing-Examination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Order&amp;Tracking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Billing&amp;Payment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reviewing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_Life_Cycle_Management"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#After_Sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerOperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Critics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Return_Book"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wish_List"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NegotiationTask"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Order_Status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Personalized_Email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Partnership"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Public_Relation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tracking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disposing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negotiating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Customer_Review"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Using"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Testing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maintenance-Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feedback_Supplier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Installing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Offer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Searching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shopping_Cart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Product_Catalogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurchaseCustomerAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluatingCustomerAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Renewal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reverse_Logistics_Disposal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negotiation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Information_Gathering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Search_Engine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerAction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Awareness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Promotion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company_Information"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedToActivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Information_Assesment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comparing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Home_Delivery"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CustomerActivity"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#After_Sale"/>
+            <NamedIndividual IRI="#Purchase"/>
+            <NamedIndividual IRI="#Evaluation"/>
+            <NamedIndividual IRI="#Awareness"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvaluatingCustomerAction"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CustomerAction"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasOperation"/>
+                <NamedIndividual IRI="#Evaluating"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FullfilmentCustomerOperation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CustomerOperation"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#relatedToAction"/>
+                <NamedIndividual IRI="#Fullfilment"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PurchaseCustomerAction"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CustomerAction"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#relatedToActivity"/>
+                <NamedIndividual IRI="#Purchase"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#CustomerAction"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerAction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOperation"/>
+            <Class IRI="#CustomerOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerAction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatedToActivity"/>
+            <Class IRI="#CustomerActivity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerActivity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerActivity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAction"/>
+            <Class IRI="#CustomerAction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerOperation"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatedToAction"/>
+            <Class IRI="#CustomerAction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluatingCustomerAction"/>
+        <Class IRI="#CustomerAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullfilmentCustomerOperation"/>
+        <Class IRI="#CustomerOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurchaseCustomerAction"/>
+        <Class IRI="#CustomerAction"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#CustomerActivity"/>
+        <NamedIndividual IRI="#After_Sale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerActivity"/>
+        <NamedIndividual IRI="#Awareness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Comparing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Disposing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Evaluating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerActivity"/>
+        <NamedIndividual IRI="#Evaluation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Feedback_Supplier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Information_Assesment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Information_Gathering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Installing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Maintaining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Negotiating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Negotiation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Observing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Paying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Planning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerActivity"/>
+        <NamedIndividual IRI="#Purchase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Renewal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Reviewing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Searching"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerAction"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Testing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Tracking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CustomerOperation"/>
+        <NamedIndividual IRI="#Using"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#After_Sale"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#After_Sale"/>
+        <NamedIndividual IRI="#Renewal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Awareness"/>
+        <NamedIndividual IRI="#Information_Assesment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Awareness"/>
+        <NamedIndividual IRI="#Information_Gathering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Comparing"/>
+        <NamedIndividual IRI="#Information_Assesment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Comparing"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+        <NamedIndividual IRI="#After_Sale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Disposing"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Information_Assesment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Renewal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Evaluating"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Evaluation"/>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Evaluation"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Feedback_Supplier"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+        <NamedIndividual IRI="#Purchase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Information_Assesment"/>
+        <NamedIndividual IRI="#Awareness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Information_Gathering"/>
+        <NamedIndividual IRI="#Awareness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Installing"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Learning"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Learning"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Maintaining"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Negotiating"/>
+        <NamedIndividual IRI="#Negotiation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Negotiation"/>
+        <NamedIndividual IRI="#Purchase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Observing"/>
+        <NamedIndividual IRI="#Information_Gathering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Paying"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Planning"/>
+        <NamedIndividual IRI="#Negotiation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Purchase"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#Purchase"/>
+        <NamedIndividual IRI="#Negotiation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Renewal"/>
+        <NamedIndividual IRI="#After_Sale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Reviewing"/>
+        <NamedIndividual IRI="#Renewal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+        <NamedIndividual IRI="#Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Searching"/>
+        <NamedIndividual IRI="#Information_Gathering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <NamedIndividual IRI="#Supplier_appraisal"/>
+        <NamedIndividual IRI="#Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Testing"/>
+        <NamedIndividual IRI="#Reviewing_Background"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Tracking"/>
+        <NamedIndividual IRI="#Fullfilment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <NamedIndividual IRI="#Using"/>
+        <NamedIndividual IRI="#Consumption_Maintenance_Disposal"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Book"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Taking advantage of vast warehouses across the United States, we stock over 1 million titles for immediate delivery -- that&apos;s more titles than any other online bookseller. With so many titles, it is vital to give customers an easy way to find precisely the books they are looking for. Our search engine enables customers to locate books by title, author, or keyword in a few seconds at most. Customers with a general idea of what they want can use our Browse pages to sift through hundreds of categories to find exactly the right book. To further assist users, we offer descriptions and reviews, and our See Inside program lets customers read excerpts from tens of thousands of titles. We also offer editor recommendations and customer reviews on hundreds of thousands of titles.
+©1997-2019 Barnes &amp; Noble Booksellers, Inc.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Book"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Book</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAction"/>
+        <ObjectProperty IRI="#relatedToActivity"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOperation"/>
+        <ObjectProperty IRI="#relatedToAction"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#CustomerActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOperation"/>
+        <Class IRI="#CustomerAction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <Class IRI="#CustomerOperation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <Class IRI="#CustomerAction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#CustomerAction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOperation"/>
+        <Class IRI="#CustomerOperation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedToAction"/>
+        <Class IRI="#CustomerAction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedToActivity"/>
+        <Class IRI="#CustomerActivity"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#After_Sale</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This last phase is probably the most promising one, because it has the potential to create loyal customers. After sales services enormously contribute to a customer&apos;s satisfaction by helping him profit from the value proposition and by assisting him in case of problems (Osterwalder 2004).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#After_Sale</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AfterSales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Awareness</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">At this stage of the Customer Buying Cycle the customer identifies a company&apos;s value proposition that may match his needs. He develops the awareness that an organization exists and that it might be able to fulfill his requests (Osterwalder 2004).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Awareness</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Awareness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Consumption_Maintenance_Disposal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">During this phase the company evaluates the performance of the P/S and any accompanying service support, as they are consumed  (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Consumption_Maintenance_Disposal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ConsumptionMaintenanceDisposal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#CustomerAction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This matches actions between suppliers and customers, and is also known as stages in the business procurement life cycle. For the customer, the stages identify actions that are pursued when acquiring goods and services to meet company requirements. For the supplier, these actions create opportunities for marketing, sales, supply management, and fulfillment functions, in addition to the service function. The procurement life cycle offers opportunities to initiate, develop or end a business relationship (Archer and Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#CustomerAction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Customer Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#CustomerActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">These are the activities that customers must undertake in order to contact a supplier, and they are also known as stages in the customer buying cycle (knowledge, evaluation, purchase, after-sales).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#CustomerActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Customer Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#CustomerOperation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the series of activities that customers must perform in order to interact with a company during the CBC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#CustomerOperation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Customer Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Evaluation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Once a customer has identified a specific firm as a potential solution provider to his problem or his needs he will want to learn more about the organization and the bundle of products and services it offers (Osterwalder 2004).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Evaluation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Information_Gathering</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">If the potential customer does not already have an established relationship with sales/marketing functions of suppliers of needed P/S, it is necessary to search for suppliers who can satisfy the requirements (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Information_Gathering</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InformationGathering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#NegotiationTask</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Negotiations are undertaken, and price, availability, and customization possibilities are established. Delivery schedules are negotiated, and a contract to acquire the P/S is completed (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#NegotiationTask</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Negotiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Purchase</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">During the purchase phase the actual transaction takes place. This includes negotiation, decision, contract, order &amp; tracking, billing &amp; payment and fulfillment (Osterwalder 2004).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Purchase</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Purchase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Renewal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When the P/S has been consumed and/or disposed of, the contract expires, or the product or service is to be re-ordered, company experience with the P/S is reviewed. If the P/S is to be re-ordered, the company determines whether to consider other suppliers or to continue with the same supplier. This may lead back to either phase 1.0) or 3.1) respectively  (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Renewal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Renewal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Reviewing_Background</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">References for product/service quality are consulted, and any requirements for follow-up services including installation, maintenance, and warranty are investigated. Samples of the P/S being considered may be examined, or trials undertaken (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Reviewing_Background</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BackgroundReview</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Supplier_appraisal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When one or more suitable suppliers have been identified, Requests for Quotes (RFQ), Requests for Proposals (RFP), Requests for Information (RFI) or Requests for Bids (RFB) may be advertised, or direct contact may be made with the suppliers (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Supplier_appraisal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SupplierContact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <IRI>#Fullfilment&amp;Delivery</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Supplier preparation, shipment, delivery, and payment for the P/S are completed, based on contract terms. Installation and training may also be included (Archer &amp; Yuan, 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <IRI>#Fullfilment&amp;Delivery</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fullfilment&amp;Delivery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasDescription"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">At this stage of the Customer Buying Cycle the customer identifies a company&apos;s value proposition that may match his needs. He develops the awareness that an organization exists and that it might be able to fulfill his requests (Osterwalder 2004)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasName"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Awareness</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
