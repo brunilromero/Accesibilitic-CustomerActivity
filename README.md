@@ -20,9 +20,9 @@ In order to visualize how ACCESIBILITIC-CustomerActivity ontology works the foll
 
 Class	               -            Defined Class	              -             CQ
 -----------------------------------------------------------------------------------------------
-CustomerAction            	PurchaseCustomerAction	         CQ1 - Customer Activity “Purchase”
-                            EvaluatingCustomerAction	       CQ3- Customer Operation “Evaluating”
+CustomerAction       -     	PurchaseCustomerAction	          - CQ1:Customer Activity “Purchase”
+                     -       EvaluatingCustomerAction	        - CQ3:Customer Operation “Evaluating”
                             
-CustomerOperation	          FullfilmentCustomerOperation	   CQ2- Customer Action “Fullfilment”
-                            Customer08Operation	             CQ4- Customer Operation of Customer08
+CustomerOperation	   -       FullfilmentCustomerOperation	    - CQ2:Customer Action “Fullfilment”
+                            Customer08Operation	              - CQ4:Customer Operation of Customer08
 
